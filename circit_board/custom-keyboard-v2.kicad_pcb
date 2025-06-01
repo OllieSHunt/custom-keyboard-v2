@@ -124,7 +124,7 @@
 		(property "Reference" "SW1"
 			(at 0 -3.5 0)
 			(layer "Dwgs.User")
-			(uuid "a27a1342-5b92-4b0f-a268-864f549aba66")
+			(uuid "b165e69a-34e5-4a5d-9b00-b8e4bb555a87")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -135,7 +135,7 @@
 		(property "Value" "SW_Push"
 			(at 0 -7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "b812bf4d-5b2e-44b2-8af5-cc06d98753cc")
+			(uuid "9893b126-df37-45eb-8cfe-1ad30f893171")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -147,7 +147,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf75f691-0cd6-404d-a046-298338704ccf")
+			(uuid "02b2bd44-d4a4-470d-b3ff-733c624cf12c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -159,7 +159,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8e3d241-c271-4c2d-a28e-a0911c1afc2d")
+			(uuid "67b88041-1daa-4449-9584-cc3c6b5ececf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,13 +296,13 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "e81db9d5-2130-4e9b-a12a-62a4c1e2d792")
-		(at 113.085 78.55)
+		(at 122.3 78.325)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "D2"
 			(at 0 -2 0)
 			(layer "F.SilkS")
-			(uuid "66575b27-8936-4ab5-9dbd-0b63e2086e1d")
+			(uuid "f4fb09e5-4b93-44da-8f98-db56027c11d8")
 			(effects
 				(font
 					(size 1 1)
@@ -313,7 +313,7 @@
 		(property "Value" "WS2812B-2020"
 			(at 0 2.2 0)
 			(layer "F.Fab")
-			(uuid "b4146d2d-d265-4b1e-bd6f-ddcd6d42c19c")
+			(uuid "0eb6a6c9-ec2b-46fb-b8a4-f78e6ddd6555")
 			(effects
 				(font
 					(size 1 1)
@@ -326,7 +326,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e667f2cf-8c83-4d45-96f1-8f09335f8031")
+			(uuid "c23c54bf-605f-4f17-938b-7709607d9bd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -339,7 +339,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50f58ddc-fa18-476b-a059-a4cd990520d1")
+			(uuid "30f17cf9-d1c9-43ed-be97-1c567bd2fc16")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -13,3 +13,11 @@
 
 # KiCad Libraries Used
 - https://github.com/ai03-2725/MX_V2/tree/main
+
+# KiCad Notes
+Notes for my own reference:
+
+- You can position an LED relative to the hole in the bottom of a key switch in the PCB Editor by:
+  1. Right click the LED and go to "Positioning Tools" -> "Position Relative To" (or press Shift + P)
+  2. Click "Select Point" then select the snap point in the center of the hole in the key switch (blue rectangle)
+  3. Click "OK"

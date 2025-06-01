@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MX_V2")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/MX_V2/Template.pretty")(options "")(descr ""))
+)

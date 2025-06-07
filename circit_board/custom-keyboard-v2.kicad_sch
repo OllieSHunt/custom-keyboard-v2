@@ -1596,7 +1596,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "TODO: Get LED power from vbus or vsys? Do more reasearch.\n\nTODO: Is the LED data in voltage correct? The datasheet says: \"VDD-0.7～VDD+0.7\"\n\nTODO: Does the LED chain draw more than the max current?\n\nTODO: Reread the QMK LED docs to make sure that I am doing LED matrixes right.\n\nTODO: In the LED chain, does the trailing data out need to connect to anything?"
+	(text_box "TODO: Is the LED data in voltage correct? The datasheet says: \"VDD-0.7～VDD+0.7\"\n\nTODO: Does the LED chain draw more than the max current?\n\nTODO: Reread the QMK LED docs to make sure that I am doing LED matrixes right.\n\nTODO: In the LED chain, does the trailing data out need to connect to anything?\n\nTODO: Check diode size."
 		(exclude_from_sim no)
 		(at 495.3 25.4 0)
 		(size 76.2 38.1)
@@ -7002,7 +7002,7 @@
 	)
 	(global_label "led-power"
 		(shape input)
-		(at 359.41 30.48 90)
+		(at 361.95 34.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7012,7 +7012,7 @@
 		)
 		(uuid "e286d514-c1eb-4703-b871-891eb5c355a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.41 17.5163 90)
+			(at 361.95 21.3263 90)
 			(effects
 				(font
 					(size 1.27 1.27)

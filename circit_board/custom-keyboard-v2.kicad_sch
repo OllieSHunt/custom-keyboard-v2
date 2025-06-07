@@ -1596,26 +1596,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "TODO: Is the LED data in voltage correct? The datasheet says: \"VDD-0.7～VDD+0.7\"\n\nTODO: Does the LED chain draw more than the max current?\n\nTODO: Reread the QMK LED docs to make sure that I am doing LED matrixes right.\n\nTODO: In the LED chain, does the trailing data out need to connect to anything?\n\nTODO: Check diode size."
-		(exclude_from_sim no)
-		(at 495.3 25.4 0)
-		(size 76.2 38.1)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "f8644cc5-dd93-44c1-b163-6235b1b19feb")
-	)
 	(junction
 		(at 76.2 177.8)
 		(diameter 0)
@@ -1657,6 +1637,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08cd7ffc-e6c7-43b7-9a79-e92803366170")
+	)
+	(junction
+		(at 203.2 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08ce98df-ed5f-43d2-b155-548753a53fd8")
 	)
 	(junction
 		(at 203.2 241.3)
@@ -1857,7 +1843,7 @@
 		(uuid "3a5ffb0e-345c-4a1f-8f0d-5ecf5ecb74a7")
 	)
 	(junction
-		(at 111.76 147.32)
+		(at 162.56 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c5f4331-33a1-47f8-b768-e659beefe2d0")
@@ -1927,6 +1913,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49e4338d-c82a-4057-a407-f8eb5db09410")
+	)
+	(junction
+		(at 228.6 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a4e6bd3-3cf6-4997-9fe3-c9cd3dcda515")
 	)
 	(junction
 		(at 238.76 121.92)
@@ -2055,16 +2047,10 @@
 		(uuid "72da0e50-f963-4aab-8368-d8f11e34dbb1")
 	)
 	(junction
-		(at 60.96 147.32)
+		(at 111.76 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77303beb-fc87-47a8-b72e-ec9bf7e3aafc")
-	)
-	(junction
-		(at 50.8 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bd29f46-8160-48b3-8eb3-b457a551eaac")
 	)
 	(junction
 		(at 127 63.5)
@@ -2097,19 +2083,13 @@
 		(uuid "7e483e00-bb4e-415e-8632-f1d4a8c4b00b")
 	)
 	(junction
-		(at 76.2 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ff8b6da-bd82-41b0-9817-83ef8faf1ebe")
-	)
-	(junction
 		(at 279.4 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81707dfb-0141-485f-8074-57f805dfbcdb")
 	)
 	(junction
-		(at 137.16 147.32)
+		(at 187.96 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "834e6c36-843d-4018-b98e-eb5015224be8")
@@ -2289,7 +2269,7 @@
 		(uuid "ae1c3598-4d9e-4014-81da-367a3f69bc13")
 	)
 	(junction
-		(at 162.56 147.32)
+		(at 213.36 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af7f1fbe-d15c-44ba-894c-c80615d5f6fd")
@@ -2547,7 +2527,7 @@
 		(uuid "ef5e90a8-3b4b-4d66-ad87-494385a77f88")
 	)
 	(junction
-		(at 86.36 147.32)
+		(at 137.16 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efd2791b-00e9-4a72-83ca-8a792b8e2e06")
@@ -2750,7 +2730,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 147.32) (xy 86.36 147.32)
+			(xy 111.76 147.32) (xy 137.16 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +2790,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 114.3) (xy 177.8 139.7)
+			(xy 228.6 114.3) (xy 228.6 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3130,16 +3110,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 147.32) (xy 60.96 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22caca9f-2cae-46bd-865e-57f9ebff01a5")
-	)
-	(wire
-		(pts
 			(xy 152.4 297.18) (xy 152.4 292.1)
 		)
 		(stroke
@@ -3190,7 +3160,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 114.3) (xy 152.4 139.7)
+			(xy 203.2 114.3) (xy 203.2 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3510,7 +3480,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3) (xy 101.6 139.7)
+			(xy 152.4 114.3) (xy 152.4 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3530,7 +3500,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 114.3) (xy 50.8 139.7)
+			(xy 101.6 114.3) (xy 101.6 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3677,6 +3647,16 @@
 			(type default)
 		)
 		(uuid "4924f6ad-3f73-438e-9833-f4d21fb39ed5")
+	)
+	(wire
+		(pts
+			(xy 38.1 147.32) (xy 111.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4983b68e-e563-42f2-99e3-6e09741c0101")
 	)
 	(wire
 		(pts
@@ -3940,7 +3920,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 147.32) (xy 162.56 147.32)
+			(xy 187.96 147.32) (xy 213.36 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5010,7 +4990,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 147.32) (xy 137.16 147.32)
+			(xy 162.56 147.32) (xy 187.96 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5210,7 +5190,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 147.32) (xy 111.76 147.32)
+			(xy 137.16 147.32) (xy 162.56 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5710,7 +5690,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 147.32) (xy 187.96 147.32)
+			(xy 213.36 147.32) (xy 238.76 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6090,7 +6070,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 114.3) (xy 127 139.7)
+			(xy 177.8 114.3) (xy 177.8 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6180,7 +6160,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 114.3) (xy 76.2 139.7)
+			(xy 127 114.3) (xy 127 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7507,7 +7487,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 106.68 139.7 0)
+		(at 157.48 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7515,7 +7495,7 @@
 		(dnp no)
 		(uuid "062a4cad-fa80-46d5-be6c-8d7c4e2001f8")
 		(property "Reference" "SW43"
-			(at 106.68 132.08 0)
+			(at 157.48 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +7503,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 106.68 134.62 0)
+			(at 157.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +7511,7 @@
 			)
 		)
 		(property "Footprint" "MX_V2:Gateron-KS33-Solderable-Template"
-			(at 106.68 134.62 0)
+			(at 157.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,7 +7520,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 134.62 0)
+			(at 157.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +7529,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 106.68 139.7 0)
+			(at 157.48 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7554,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 81.28 139.7 0)
+		(at 132.08 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7582,7 +7562,7 @@
 		(dnp no)
 		(uuid "0631177e-c4d1-44fa-9bc6-b59532f60317")
 		(property "Reference" "SW42"
-			(at 81.28 132.08 0)
+			(at 132.08 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7590,7 +7570,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 81.28 134.62 0)
+			(at 132.08 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,7 +7578,7 @@
 			)
 		)
 		(property "Footprint" "MX_V2:Gateron-KS33-Solderable-Template"
-			(at 81.28 134.62 0)
+			(at 132.08 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,7 +7587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 134.62 0)
+			(at 132.08 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7596,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 81.28 139.7 0)
+			(at 132.08 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,7 +8059,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 55.88 139.7 0)
+		(at 106.68 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8087,7 +8067,7 @@
 		(dnp no)
 		(uuid "1732cf52-1bb0-4188-8fe4-923000bbe1d3")
 		(property "Reference" "SW41"
-			(at 55.88 132.08 0)
+			(at 106.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8095,7 +8075,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 55.88 134.62 0)
+			(at 106.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,7 +8083,7 @@
 			)
 		)
 		(property "Footprint" "MX_V2:Gateron-KS33-Solderable-Template"
-			(at 55.88 134.62 0)
+			(at 106.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +8092,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 134.62 0)
+			(at 106.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +8101,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 55.88 139.7 0)
+			(at 106.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +8357,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 157.48 139.7 0)
+		(at 208.28 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8385,7 +8365,7 @@
 		(dnp no)
 		(uuid "1fb09a16-12e6-4833-80e0-ba781ef12335")
 		(property "Reference" "SW45"
-			(at 157.48 132.08 0)
+			(at 208.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8393,7 +8373,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 157.48 134.62 0)
+			(at 208.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,7 +8381,7 @@
 			)
 		)
 		(property "Footprint" "MX_V2:Gateron-KS33-Solderable-Template"
-			(at 157.48 134.62 0)
+			(at 208.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +8390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 134.62 0)
+			(at 208.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +8399,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 139.7 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +9655,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 187.96 143.51 90)
+		(at 238.76 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9684,7 +9664,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fb5fd8b-e7bf-44e8-b5f4-a28b4d84fdd8")
 		(property "Reference" "D46"
-			(at 190.5 142.2399 90)
+			(at 241.3 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9673,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 190.5 144.7799 90)
+			(at 241.3 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9702,7 +9682,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 192.405 143.51 0)
+			(at 243.205 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +9691,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 187.96 143.51 0)
+			(at 238.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,7 +9700,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 187.96 143.51 0)
+			(at 238.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,7 +9709,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 187.96 143.51 0)
+			(at 238.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,7 +9718,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 187.96 143.51 0)
+			(at 238.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11696,7 +11676,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 60.96 143.51 90)
+		(at 111.76 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11705,7 +11685,7 @@
 		(fields_autoplaced yes)
 		(uuid "60bab286-28c9-4430-a44d-6a2791b6a56b")
 		(property "Reference" "D41"
-			(at 63.5 142.2399 90)
+			(at 114.3 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11714,7 +11694,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 63.5 144.7799 90)
+			(at 114.3 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,7 +11703,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 65.405 143.51 0)
+			(at 116.205 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11732,7 +11712,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 60.96 143.51 0)
+			(at 111.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,7 +11721,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 60.96 143.51 0)
+			(at 111.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,7 +11730,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 60.96 143.51 0)
+			(at 111.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11759,7 +11739,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 60.96 143.51 0)
+			(at 111.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13064,7 +13044,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 182.88 139.7 0)
+		(at 233.68 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13072,7 +13052,7 @@
 		(dnp no)
 		(uuid "9537e4c4-084b-475d-8c95-19595d518eee")
 		(property "Reference" "SW46"
-			(at 182.88 132.08 0)
+			(at 233.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13080,7 +13060,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 182.88 134.62 0)
+			(at 233.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13088,7 +13068,7 @@
 			)
 		)
 		(property "Footprint" "MX_V2:Gateron-KS33-Solderable-Template"
-			(at 182.88 134.62 0)
+			(at 233.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13097,7 +13077,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 134.62 0)
+			(at 233.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13106,7 +13086,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 182.88 139.7 0)
+			(at 233.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13605,7 +13585,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 137.16 143.51 90)
+		(at 187.96 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13614,7 +13594,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5fefe84-88c1-4ba6-8187-88d54ab5ef53")
 		(property "Reference" "D44"
-			(at 139.7 142.2399 90)
+			(at 190.5 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13623,7 +13603,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 139.7 144.7799 90)
+			(at 190.5 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13632,7 +13612,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 141.605 143.51 0)
+			(at 192.405 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13641,7 +13621,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 137.16 143.51 0)
+			(at 187.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13650,7 +13630,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 137.16 143.51 0)
+			(at 187.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13659,7 +13639,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 137.16 143.51 0)
+			(at 187.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13668,7 +13648,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 137.16 143.51 0)
+			(at 187.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,7 +14755,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 132.08 139.7 0)
+		(at 182.88 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14783,7 +14763,7 @@
 		(dnp no)
 		(uuid "c3c12997-f96e-48db-a0f6-c98d3d81e281")
 		(property "Reference" "SW44"
-			(at 132.08 132.08 0)
+			(at 182.88 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14791,7 +14771,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 132.08 134.62 0)
+			(at 182.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14799,7 +14779,7 @@
 			)
 		)
 		(property "Footprint" "MX_V2:Gateron-KS33-Solderable-Template"
-			(at 132.08 134.62 0)
+			(at 182.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14808,7 +14788,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 134.62 0)
+			(at 182.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14817,7 +14797,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 132.08 139.7 0)
+			(at 182.88 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14842,7 +14822,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 86.36 143.51 90)
+		(at 137.16 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14851,7 +14831,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4b63966-661a-4e4e-93ee-75c67dbfabdd")
 		(property "Reference" "D42"
-			(at 88.9 142.2399 90)
+			(at 139.7 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14860,7 +14840,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 88.9 144.7799 90)
+			(at 139.7 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14869,7 +14849,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 90.805 143.51 0)
+			(at 141.605 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14878,7 +14858,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 86.36 143.51 0)
+			(at 137.16 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14887,7 +14867,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 86.36 143.51 0)
+			(at 137.16 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14896,7 +14876,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 86.36 143.51 0)
+			(at 137.16 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14905,7 +14885,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 86.36 143.51 0)
+			(at 137.16 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15085,7 +15065,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 111.76 143.51 90)
+		(at 162.56 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15094,7 +15074,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6ea6558-e63b-45a3-abcd-296b34a3e512")
 		(property "Reference" "D43"
-			(at 114.3 142.2399 90)
+			(at 165.1 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15103,7 +15083,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 114.3 144.7799 90)
+			(at 165.1 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15112,7 +15092,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 116.205 143.51 0)
+			(at 167.005 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15121,7 +15101,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 111.76 143.51 0)
+			(at 162.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15130,7 +15110,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 111.76 143.51 0)
+			(at 162.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15139,7 +15119,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 111.76 143.51 0)
+			(at 162.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15148,7 +15128,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 111.76 143.51 0)
+			(at 162.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15620,7 +15600,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 162.56 143.51 90)
+		(at 213.36 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15629,7 +15609,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1c77e04-dd7c-4cc3-9685-4558dda3f3c5")
 		(property "Reference" "D45"
-			(at 165.1 142.2399 90)
+			(at 215.9 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15638,7 +15618,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 165.1 144.7799 90)
+			(at 215.9 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15647,7 +15627,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 167.005 143.51 0)
+			(at 217.805 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15656,7 +15636,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 162.56 143.51 0)
+			(at 213.36 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15665,7 +15645,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 162.56 143.51 0)
+			(at 213.36 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15674,7 +15654,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 162.56 143.51 0)
+			(at 213.36 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15683,7 +15663,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 162.56 143.51 0)
+			(at 213.36 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

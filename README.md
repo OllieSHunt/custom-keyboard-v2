@@ -5,11 +5,13 @@
 
 # Components List
 - Custom circuit board
-- Raspberry Pi Pico (without headers, and I use the original Pi Pico, not the v2)
-- Gateron Low Profile Switch 2.0, brown (can be swapped for any other colour, you need 46 of these)
-- WOMIER Low Profile Keycaps (can be swapped for any other compatible keycaps, you need 46 of these)
-- 1N4148W diodes (you need 46 of these)
-- WS2812C-2020 LEDs (*TODO: how many do I need?*)
+- Raspberry Pi Pico 1 (without headers)
+- SSD1306 based 128x64 OLED display (must be I2C compatible and run of 3V)
+- 46 Gateron Low Profile Switch 2.0
+- 46 Gateron compatible Low Profile Keycaps
+- 46 1N4148W diodes
+- 46 WS2812C-2020 LEDs
+- Some stick-on silicone feet (I used 5mm tall ones)
 
 # KiCad Libraries Used
 - https://github.com/ai03-2725/MX_V2/tree/main

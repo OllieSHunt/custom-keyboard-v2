@@ -6586,6 +6586,50 @@
 			)
 		)
 	)
+	(global_label "I2C-SCL"
+		(shape input)
+		(at 374.65 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3396814c-395b-41a9-98e6-c79dae8405c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 363.5005 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C-SDA"
+		(shape input)
+		(at 384.81 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3db8b9ea-cd13-4d2b-be5d-65b2bf486f0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 396.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col6"
 		(shape input)
 		(at 339.09 69.85 180)
@@ -6643,6 +6687,28 @@
 		(uuid "44395f10-a60a-42e1-b27c-01ce864018c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 25.1363 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "gnd"
+		(shape input)
+		(at 374.65 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a607db4-8aac-4267-bdce-02707c5c5bb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 368.2178 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,6 +6819,28 @@
 		(uuid "6cfb363b-2460-4fba-9d20-b86421d89527")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.8 18.3025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OLED-power"
+		(shape input)
+		(at 367.03 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7732fcb2-a886-4aac-bb7b-2e816dc14aeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.03 19.4515 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,6 +7114,28 @@
 			)
 		)
 	)
+	(global_label "I2C-SCL"
+		(shape input)
+		(at 384.81 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acd5f082-c5ec-4944-a575-a088dd0fb121")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.9595 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row5"
 		(shape input)
 		(at 38.1 147.32 180)
@@ -7105,6 +7215,50 @@
 		(uuid "c4a0f15c-c12c-4516-8e59-b2582b222814")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 331.9925 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OLED-power"
+		(shape input)
+		(at 374.65 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d225498b-0c57-4b2a-92b8-a16169fcd8bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.8115 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C-SDA"
+		(shape input)
+		(at 374.65 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d575f619-6ada-4f8f-a271-8fa4af4e70c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 363.44 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17543,7 +17697,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 364.49 137.16 0)
+		(at 379.73 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17552,7 +17706,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0391bd5-7f70-426e-bd03-c441047b7ff3")
 		(property "Reference" "J1"
-			(at 367.03 137.1599 0)
+			(at 382.27 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17561,7 +17715,7 @@
 			)
 		)
 		(property "Value" "i2c_display"
-			(at 367.03 139.6999 0)
+			(at 382.27 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17569,8 +17723,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 364.49 137.16 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 379.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17579,7 +17733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 364.49 137.16 0)
+			(at 379.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17588,7 +17742,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 364.49 137.16 0)
+			(at 379.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

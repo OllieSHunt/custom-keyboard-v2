@@ -207,7 +207,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "031748b2-018d-486a-8973-1ba67dad9dbd")
-		(at 180.14 220.35)
+		(at 323 146.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED39"
@@ -840,7 +840,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "0c3481e0-3383-45f8-bdaf-7a62a29c848e")
-		(at 162.86 202.6)
+		(at 114 89.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED2"
@@ -1297,7 +1297,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "187c2b21-81ee-4067-8c57-0e7eda0c3124")
-		(at 162.86 213.25)
+		(at 171 89.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED5"
@@ -1754,7 +1754,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "227bd2d6-7ef9-4a0f-a949-5d8cd27eb606")
-		(at 167.18 199.05)
+		(at 323 89.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED9"
@@ -2035,7 +2035,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "2393cdb0-dbb9-4f77-b1a0-7957f0370ccd")
-		(at 180.14 209.7)
+		(at 266 146.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED36"
@@ -2316,13 +2316,13 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "245335b3-f6be-4f4f-abc5-47e2dac2ce12")
-		(at 162.86 199.05)
+		(at 95 94.575)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED1"
 			(at 0 -2 0)
 			(layer "F.SilkS")
-			(uuid "490b2f2f-bac8-4721-9102-d136d9dd61c4")
+			(uuid "27416d9d-50d0-407b-8d46-03853ac83591")
 			(effects
 				(font
 					(size 1 1)
@@ -2333,7 +2333,7 @@
 		(property "Value" "WS2812B-2020"
 			(at 0 2.2 0)
 			(layer "F.Fab")
-			(uuid "89bedad3-176e-4859-8c27-b32ef464dc53")
+			(uuid "c641f0f1-b391-4976-8c95-94582405cfe1")
 			(effects
 				(font
 					(size 1 1)
@@ -2346,7 +2346,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1032224d-35e7-4f93-bf6c-2966764144ae")
+			(uuid "ac225b7c-0206-4721-99e2-583bd99fb033")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2359,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51614937-e989-4bff-b03f-0a82d23c57dc")
+			(uuid "8f310ee8-498b-4027-82f6-280d6f4bf7a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2597,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "25175dd5-fe99-415f-a441-8b8fe87474b7")
-		(at 171.5 199.05)
+		(at 285 108.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED17"
@@ -2878,7 +2878,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "29720416-9a45-4654-9fb6-3f7d6d968063")
-		(at 171.5 206.15)
+		(at 323 108.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED19"
@@ -3335,7 +3335,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "31f56041-8eed-4e01-bb11-440fdd4ff7a6")
-		(at 184.46 209.7)
+		(at 256.5 165.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED44"
@@ -3968,7 +3968,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "3c3e5eee-e2af-41f8-a06e-d3dab6168fe5")
-		(at 171.5 202.6)
+		(at 304 104.075)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED18"
@@ -4425,7 +4425,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "486c90df-e58b-4341-8731-5de4f8919805")
-		(at 175.82 216.8)
+		(at 342 132.575)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED30"
@@ -4706,7 +4706,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "4a31b3cf-f8c0-453d-b012-a58a50717ce2")
-		(at 171.5 209.7)
+		(at 342 113.575)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED20"
@@ -4987,7 +4987,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "4aa835e0-81af-4988-8504-298ec573fae7")
-		(at 162.86 220.35)
+		(at 285 89.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED7"
@@ -5268,7 +5268,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "4cdf3b82-7d49-457b-bb93-78e7aca1dce7")
-		(at 162.86 206.15)
+		(at 133 85.075)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED3"
@@ -5901,7 +5901,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "53d5f002-0a3d-493c-95c0-4b8fa635cacb")
-		(at 184.46 202.6)
+		(at 161.5 165.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED42"
@@ -6182,7 +6182,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "54a0535e-d9fa-4f1b-897d-ab553d74e1ed")
-		(at 162.86 209.7)
+		(at 152 89.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED4"
@@ -6463,7 +6463,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "55dd03bd-ed35-454f-8cef-25c7cb349cd0")
-		(at 175.82 209.7)
+		(at 304 123.075)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED28"
@@ -7096,7 +7096,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "5bbbc936-1caa-4273-9be4-8898c9266e45")
-		(at 175.82 213.25)
+		(at 323 127.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED29"
@@ -8609,7 +8609,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "66d000ee-ce90-4ca1-8fab-7f02b1007140")
-		(at 167.18 206.15)
+		(at 95 113.575)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED11"
@@ -8890,7 +8890,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "675161d6-7e4e-40c0-8934-f8436c227144")
-		(at 167.18 223.9)
+		(at 266 108.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED16"
@@ -9171,7 +9171,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "69cf53da-427b-47db-874a-71c125a982c1")
-		(at 180.14 199.05)
+		(at 133 142.075)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED33"
@@ -9452,7 +9452,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "6de8a914-6847-4844-b8d1-bf5ac80a7fa2")
-		(at 184.46 213.25)
+		(at 275.5 165.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED45"
@@ -9733,7 +9733,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "6e725aa8-7b78-4357-a7fe-1c82be7310c7")
-		(at 180.14 223.9)
+		(at 342 151.575)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED40"
@@ -10014,7 +10014,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "6f0f2288-0619-4160-81c1-ec6801bcd39b")
-		(at 180.14 202.6)
+		(at 152 146.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED34"
@@ -10295,7 +10295,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "70e263b9-d54b-4448-85e1-c86220dc20e9")
-		(at 180.14 213.25)
+		(at 285 146.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED37"
@@ -10928,7 +10928,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "75fed750-4ec5-4bc5-9150-ce32f23175e9")
-		(at 171.5 213.25)
+		(at 95 132.575)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED21"
@@ -11209,7 +11209,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "7b0ed798-755c-46b6-b6d7-fea3e4d8e757")
-		(at 184.46 199.05)
+		(at 142.5 165.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED41"
@@ -11490,7 +11490,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "7c9246ef-6716-46df-97d4-bb37eb7b68ce")
-		(at 167.18 209.7)
+		(at 114 108.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED12"
@@ -12123,7 +12123,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "8e5fb205-1870-4fa0-a9a3-ff553c19471f")
-		(at 175.82 220.35)
+		(at 95 151.575)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED31"
@@ -12580,7 +12580,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "9920ce61-1169-4d30-87d5-3b3c23a560ce")
-		(at 180.14 216.8)
+		(at 304 142.075)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED38"
@@ -13213,7 +13213,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "9b2ada25-0b64-4efa-8714-6efc863aff12")
-		(at 171.5 220.35)
+		(at 133 123.075)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED23"
@@ -13846,7 +13846,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "9fe7d3f9-3e66-4d3d-acfc-4ef527da49e7")
-		(at 167.18 213.25)
+		(at 133 104.075)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED13"
@@ -14303,7 +14303,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "aa61721d-334d-4a58-a91d-43a968ab0a31")
-		(at 175.82 199.05)
+		(at 171 127.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED25"
@@ -14584,7 +14584,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "abfc0b00-8151-47a1-b5de-20897ef2c4fc")
-		(at 171.5 216.8)
+		(at 114 127.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED22"
@@ -14865,7 +14865,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "b0d3cbdf-0ee8-40c6-8d1c-72b4ecb7cef9")
-		(at 162.86 223.9)
+		(at 304 85.075)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED8"
@@ -15146,7 +15146,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "b1cd9c8f-d36c-4c78-a115-85951f2b5f7b")
-		(at 184.46 216.8)
+		(at 294.5 165.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED46"
@@ -15779,7 +15779,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "b643c9e7-529f-4a44-bc0d-a24cf46bae5d")
-		(at 175.82 223.9)
+		(at 114 146.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED32"
@@ -16412,7 +16412,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "c39690b6-ee47-41ca-a79b-efd167ada805")
-		(at 167.18 202.6)
+		(at 342 94.575)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED10"
@@ -19907,7 +19907,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "c6f02154-1bc6-46d7-8d11-d19d71509d79")
-		(at 171.5 223.9)
+		(at 152 127.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED24"
@@ -21244,7 +21244,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "d74eeb12-08a9-4844-9782-5646615b07d7")
-		(at 184.46 206.15)
+		(at 180.5 165.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED43"
@@ -21525,7 +21525,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "dbc98fff-dbbf-41ee-86fa-749eab8869f4")
-		(at 175.82 206.15)
+		(at 285 127.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED27"
@@ -22334,7 +22334,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "e1535261-42cc-45f5-bc97-9c6274648988")
-		(at 175.82 202.6)
+		(at 266 127.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED26"
@@ -22791,7 +22791,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "e94b2587-8292-45b7-800b-400ac4942570")
-		(at 167.18 220.35)
+		(at 171 108.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED15"
@@ -23424,7 +23424,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "ec003488-9a04-4578-858f-fd32ba845804")
-		(at 180.14 206.15)
+		(at 171 146.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED35"
@@ -23705,7 +23705,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "eea741fb-63e8-4642-b7bf-6e31d2aeb09f")
-		(at 167.18 216.8)
+		(at 152 108.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED14"
@@ -23986,7 +23986,7 @@
 	(footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(layer "F.Cu")
 		(uuid "f11d7536-ddbe-442a-8619-f5b867e1ee3c")
-		(at 162.86 216.8)
+		(at 266 89.825)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "LED6"

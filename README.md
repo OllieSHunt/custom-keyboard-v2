@@ -7,6 +7,7 @@
 - Custom circuit board
 - Raspberry Pi Pico 1 (without headers)
 - SSD1306 based 128x64 OLED display (must be I2C compatible and run of 3V)
+- Adafruit MiniBoost 5V @ 100mA Charge Pump - AP3602A
 - 46 Gateron Low Profile Switch 2.0
 - 46 Gateron compatible Low Profile Keycaps
 - 46 1N4148W diodes

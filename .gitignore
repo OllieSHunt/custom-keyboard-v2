@@ -1,1 +1,42 @@
-circit_board/custom-keyboard-v2-backups/
+# Orriginal file from: https://github.com/github/gitignore
+
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+circit_board/*.000
+circit_board/*.bak
+circit_board/*.bck
+circit_board/*.kicad_pcb-bak
+circit_board/*.kicad_sch-bak
+circit_board/*-backups
+circit_board/*.kicad_prl
+circit_board/*.sch-bak
+circit_board/*~
+circit_board/_autosave-*
+circit_board/*.tmp
+circit_board/*-save.pro
+circit_board/*-save.kicad_pcb
+circit_board/fp-info-cache
+circit_board/~*.lck
+circit_board/\#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+circit_board/*.net
+
+# Autorouter files (exported from Pcbnew)
+circit_board/*.dsn
+circit_board/*.ses
+
+# Exported BOM files
+circit_board/*.xml
+circit_board/*.csv
+
+# Archived Backups (KiCad 6.0)
+circit_board/**/*-backups/*.zip
+
+circit_board/\#auto_saved_files\#
+
+# Production files
+circit_board/production
+circit_board/fabrication-toolkit-options.json

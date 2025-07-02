@@ -3,6 +3,16 @@ This repository contains KiCad design files for a home-made custom keyboard.
 
 ![keyboard](https://github.com/user-attachments/assets/8217eb11-a3c6-4597-86f2-6d222c39866a)
 
+## Key Features
+- 128x64 OLED display
+  - WPM counter
+  - Visual indicators for caps lock, num lock, and scroll lock, as well as layers
+- Support for both QWERTY and Dvorak layouts
+- RGB lighting with cool animations
+
+## Planed Features
+- Stenography support
+
 ## Repository Layout
 - `./circit_board` = KiCad design files
 - `./kicad-libs` = Third party libraries that KiCad can use

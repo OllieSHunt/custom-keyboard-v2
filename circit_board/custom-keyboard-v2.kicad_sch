@@ -5250,16 +5250,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 95.25) (xy 339.09 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b18f28ea-ef64-4f59-a78a-c006912334dc")
-	)
-	(wire
-		(pts
 			(xy 279.4 198.12) (xy 279.4 203.2)
 		)
 		(stroke
@@ -6574,28 +6564,6 @@
 			)
 		)
 	)
-	(global_label "gnd"
-		(shape input)
-		(at 328.93 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15fde2ad-55e2-4d40-b7cb-28ef3454b6b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.3622 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col3"
 		(shape input)
 		(at 101.6 25.4 90)
@@ -6818,22 +6786,22 @@
 	)
 	(global_label "led-data"
 		(shape input)
-		(at 328.93 100.33 0)
+		(at 339.09 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "60d7ac12-a39f-427a-ad98-67a7ce6a807e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 340.5631 100.33 0)
+			(at 327.4569 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8143,82 +8111,6 @@
 			(project "custom-keyboard-v2"
 				(path "/36474163-3bb3-437a-8dcc-c4f15d3a343c"
 					(reference "LED27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 323.85 97.79 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b697ea6-8f86-4f06-8e4c-d617042b1211")
-		(property "Reference" "J2"
-			(at 321.31 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Adafruit-AP3602A-PCB"
-			(at 321.31 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 323.85 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 323.85 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 323.85 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0d560d4-28ff-4ef9-85e2-55909189cb72")
-		)
-		(pin "3"
-			(uuid "3acb4203-93dd-460a-bcaf-b931bd3e15e1")
-		)
-		(pin "4"
-			(uuid "787d50dd-18af-4c9e-b49b-bd234446ba0b")
-		)
-		(pin "2"
-			(uuid "96416366-ae80-4638-bc53-09249db0d24a")
-		)
-		(instances
-			(project ""
-				(path "/36474163-3bb3-437a-8dcc-c4f15d3a343c"
-					(reference "J2")
 					(unit 1)
 				)
 			)

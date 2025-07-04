@@ -1,7 +1,7 @@
 # Custom Keyboard V2
 This repository contains KiCad design files for a home-made custom keyboard.
 
-![keyboard](https://github.com/user-attachments/assets/8217eb11-a3c6-4597-86f2-6d222c39866a)
+![keyboard photo](https://github.com/user-attachments/assets/486d9112-0976-4a03-82b4-ed6ed4f2a76c)
 
 ## Key Features
 - 128x64 OLED display

@@ -3,6 +3,8 @@ This repository contains KiCad design files for a home-made custom keyboard.
 
 ![keyboard photo](https://github.com/user-attachments/assets/486d9112-0976-4a03-82b4-ed6ed4f2a76c)
 
+![keymap layout image](keymap/keymap-exported.png)
+
 ## Current State
 ***IMPORTANT***: Although the keymap reference sheet (`./keymap/keymap-exported.pdf`) mentions a "Stenotype mode", this is not yet implemented. The rest of the keyboard should be fully functioning though.
 
